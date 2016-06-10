@@ -1,10 +1,3 @@
-# php-mycrypt
-
-Uma simples classe de criptografia com Chave
-
-**Exemplo**
-
-```php
 <?php
 require("MyCrypt.php");
 
@@ -22,4 +15,3 @@ echo " | ";
 
 $decode = $crypt->decrypt($encode);
 echo "Descriptografado: " . $decode; //hello world
-```
